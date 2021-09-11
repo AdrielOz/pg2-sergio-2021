@@ -22,7 +22,7 @@
         <!-- title -->
         <v-card-text>
           <p class="text-2xl font-weight-semibold text--primary mb-2">
-            Sistema de Almacén
+            Sistema GT-IP
           </p>
           <p class="mb-2">
             Inicie sesión en su cuenta.

@@ -34,17 +34,32 @@
       class="vertical-nav-menu-items pr-2"
     >
       <nav-menu-link
-        title="Requisiciones"
+        title="Asignación de Recursos"
         :to="{ name: 'requisicion' }"
         :icon="icons.mdiFileDocument">
       </nav-menu-link>
       <nav-menu-link
-        title="Aprobación"
+        title="Gestión de Nodos"
         :to="{ name: 'aprobacion' }"
         :icon="icons.mdiBookCheck">
       </nav-menu-link>
       <nav-menu-link
-        title="Autorización"
+        title="Gestión de Dispositivos"
+        :to="{ name: 'autorizacion' }"
+        :icon="icons.mdiCalendarMultipleCheck">
+      </nav-menu-link>
+      <nav-menu-link
+        title="Gestión de Usuarios"
+        :to="{ name: 'autorizacion' }"
+        :icon="icons.mdiCalendarMultipleCheck">
+      </nav-menu-link>
+      <nav-menu-link
+        title="Vista por Dispositivo"
+        :to="{ name: 'autorizacion' }"
+        :icon="icons.mdiCalendarMultipleCheck">
+      </nav-menu-link>
+      <nav-menu-link
+        title="Reportes"
         :to="{ name: 'autorizacion' }"
         :icon="icons.mdiCalendarMultipleCheck">
       </nav-menu-link>
