@@ -109,10 +109,10 @@ export default {
       const lanComment = ref('')
       const trunk = ref('')
       const items = [
-          'Onnet',
-          'Tigo',
-          'Claro',
-          'Bluenet'
+          'ONNET',
+          'TIGO',
+          'CLARO',
+          'BLUENET'
       ]
       const nodes = [
           'GTC',
@@ -178,7 +178,7 @@ export default {
   },
   methods: {
       enviar() {
-          console.log("carrie", this.carrier, "node ", this.node, " cvlan " , this.cVlan)
+          console.log("carrier", this.carrier, "node ", this.node, " cvlan " , this.cVlan)
       }
   }
 }
