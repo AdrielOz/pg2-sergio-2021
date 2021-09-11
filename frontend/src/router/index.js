@@ -33,6 +33,11 @@ const routes = [
     component: () => import('@/views/pages/menu/resources/Resources.vue')
   },
   {
+    path: 'nodo',
+    name: 'nodo',
+    component: () => import('@/views/pages/menu/nodo/Nodos.vue')
+  },
+  {
     path: '/dashboard',
     name: 'dashboard',
     component: () => import('@/views/dashboard/Dashboard.vue'),

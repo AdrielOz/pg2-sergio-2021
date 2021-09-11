@@ -40,7 +40,7 @@
       </nav-menu-link>
       <nav-menu-link
         title="Gestión de Nodos"
-        :to="{ name: 'aprobacion' }"
+        :to="{ name: 'nodo' }"
         :icon="icons.mdiBookCheck">
       </nav-menu-link>
       <nav-menu-link
