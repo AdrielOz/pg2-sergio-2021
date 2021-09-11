@@ -28,6 +28,11 @@ const routes = [
     },
   },
   {
+    path: 'recurso',
+    name: 'recurso',
+    component: () => import('@/views/pages/menu/resources/Resources.vue')
+  },
+  {
     path: '/dashboard',
     name: 'dashboard',
     component: () => import('@/views/dashboard/Dashboard.vue'),

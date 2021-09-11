@@ -8,7 +8,7 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
-axios.defaults.baseURL = 'http://128.5.101.19:81'
+axios.defaults.baseURL = 'http://127.0.0.1:81'
 Vue.prototype.$http = axios
 
 new Vue({

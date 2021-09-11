@@ -35,7 +35,7 @@
     >
       <nav-menu-link
         title="Asignación de Recursos"
-        :to="{ name: 'requisicion' }"
+        :to="{ name: 'recurso' }"
         :icon="icons.mdiFileDocument">
       </nav-menu-link>
       <nav-menu-link
