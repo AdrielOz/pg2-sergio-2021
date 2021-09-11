@@ -5,7 +5,7 @@ export default {
     themes: {
       light: {
         primary: '#57126c',
-        accent: '#0d6efd',
+        accent: '#bf3686',
         secondary: '#8A8D93',
         success: '#56CA00',
         info: '#16B1FF',
